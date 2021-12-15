@@ -1,15 +1,12 @@
 import React from "react";
+import logo from "../images/logo.svg";
+
 
 function Menu() {
   return (
     <div>
       <div className="menu-header">
-        <div className="liste-logo">
-          <ul>
-            <li>
-              <a href="#logo">sunnyside</a>
-            </li>
-          </ul>
+             <img src={logo} alt="logo" style={{ backgroundColor:'black' }} />
         </div>
         <div className="liste-menu">
           <ul>
@@ -32,7 +29,6 @@ function Menu() {
           <h1> We are creatives</h1>
         </div>
       </div>
-    </div>
   );
 }
 
